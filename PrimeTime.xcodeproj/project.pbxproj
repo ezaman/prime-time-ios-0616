@@ -22,6 +22,8 @@
 		72AE98651926914600C551EA /* FISPrimeViews2000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE98641926914600C551EA /* FISPrimeViews2000Spec.m */; };
 		72AE9867192691AC00C551EA /* FISPrimeViews5000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE9866192691AC00C551EA /* FISPrimeViews5000Spec.m */; };
 		72B2E3A31925766B00F9A3A3 /* FISPrimeViewsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */; };
+		8F1721E31D2A96180039EDA7 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1721E21D2A96180039EDA7 /* main.storyboard */; };
+		8F1721E61D2AA05E0039EDA7 /* FISPrimeTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1721E51D2AA05E0039EDA7 /* FISPrimeTimeTableViewController.m */; };
 		FDB0429F6C734DBEA1492468 /* libPods-PrimeTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,9 @@
 		72AE9866192691AC00C551EA /* FISPrimeViews5000Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViews5000Spec.m; sourceTree = "<group>"; };
 		72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViewsSpec.m; sourceTree = "<group>"; };
 		82DACE7EBD0B870343CC6AAD /* Pods-PrimeTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeTimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimeTimeTests/Pods-PrimeTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F1721E21D2A96180039EDA7 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		8F1721E41D2AA05E0039EDA7 /* FISPrimeTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPrimeTimeTableViewController.h; sourceTree = "<group>"; };
+		8F1721E51D2AA05E0039EDA7 /* FISPrimeTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeTimeTableViewController.m; sourceTree = "<group>"; };
 		8F2D53C2CFB6D88462E8C54D /* Pods-PrimeTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeTimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrimeTimeTests/Pods-PrimeTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimeTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,6 +127,9 @@
 			children = (
 				726812091923ECC5009F8F37 /* FISAppDelegate.h */,
 				7268120A1923ECC5009F8F37 /* FISAppDelegate.m */,
+				8F1721E21D2A96180039EDA7 /* main.storyboard */,
+				8F1721E41D2AA05E0039EDA7 /* FISPrimeTimeTableViewController.h */,
+				8F1721E51D2AA05E0039EDA7 /* FISPrimeTimeTableViewController.m */,
 				7268120C1923ECC5009F8F37 /* Images.xcassets */,
 				4D55491C1BC8520E001E3D77 /* Launch Screen.storyboard */,
 				726812011923ECC5009F8F37 /* Supporting Files */,
@@ -250,6 +258,7 @@
 				4D55491D1BC8520E001E3D77 /* Launch Screen.storyboard in Resources */,
 				726812051923ECC5009F8F37 /* InfoPlist.strings in Resources */,
 				7268120D1923ECC5009F8F37 /* Images.xcassets in Resources */,
+				8F1721E31D2A96180039EDA7 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1721E61D2AA05E0039EDA7 /* FISPrimeTimeTableViewController.m in Sources */,
 				726812071923ECC5009F8F37 /* main.m in Sources */,
 				7268120B1923ECC5009F8F37 /* FISAppDelegate.m in Sources */,
 			);
